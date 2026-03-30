@@ -8,6 +8,7 @@ import threading
 from datetime import datetime
 from plyer import notification
 
+
 from kivy.app import App
 from kivy.lang import Builder
 from kivy.uix.boxlayout import BoxLayout
