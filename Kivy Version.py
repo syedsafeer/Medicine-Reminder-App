@@ -372,7 +372,7 @@ class ReminderScreen(BoxLayout):
 
     def refresh_reminder_view(self):
 
-        list_container = self.ids.reminder_list
+        list_container = self.ids.reminder_list 
 
         rows_to_remove = [child for child in list_container.children if isinstance(child, ReminderRow)]
         for row in rows_to_remove:
